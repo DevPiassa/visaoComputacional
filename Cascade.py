@@ -1,7 +1,7 @@
 import cv2
 
 video = cv2.VideoCapture()
-ip = "https://192.168.15.153:8080/video" # para abrir webcan do celular "app ipWebcam "
+ip = "https://***.***.**.***:8080/video" # para abrir webcan do celular "app ipWebcam "
 video.open(ip)
 classicador = cv2.CascadeClassifier(r'cascades\haarcascade_frontalface_alt.xml')
 
